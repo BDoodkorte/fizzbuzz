@@ -1,3 +1,5 @@
+
+/*
 for(let i = 1; i<=110; i++){
     if(i%3 === 0 && i%5 === 0 && i%7 === 0){
         console.log("FizzBuzzBang");
@@ -23,4 +25,8 @@ for(let i = 1; i<=110; i++){
     else{
 console.log(i);
     }
+}
+*/
+for(let i = 1; i<150; i++){
+    console.log((i%3 ? "":"fizz" )+  (i % 5 ? '' : 'buzz') + (i % 7 ? '' : 'bang') + (i % 7 ? '' : 'boink')|| i);
 }
