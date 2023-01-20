@@ -28,5 +28,5 @@ console.log(i);
 }
 */
 for(let i = 1; i<150; i++){
-    console.log((i%3 ? "":"fizz" )+  (i % 5 ? '' : 'buzz') + (i % 7 ? '' : 'bang') + (i % 7 ? '' : 'boink')|| i);
+    console.log((i%3 ? "":"fizz" )+  (i % 5 ? '' : 'buzz') + (i % 7 ? '' : 'bang') + (i % 11 ? '' : 'boink')|| i);
 }

@@ -1,0 +1,6 @@
+# FizzBuzz
+
+This program will print numbers 1 through 150, replacing any prime number with a silly word. 
+
+# Setup
+Use:  node fizzbuzz.js
